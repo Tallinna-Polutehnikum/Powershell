@@ -7,6 +7,7 @@ PowerShell on skriptimiskeel, mida kasutatakse peamiselt Windowsi haldaustegevus
 1. **For-tsükkel**
    - Kasutatakse korduva tegevuse teostamiseks kindel arv kordi.
    - Näide: `for ($i = 0; $i -lt 10; $i++) { <# tegevus #> }`
+   - harjutus: kirjuta konsooli numbrite summa 0+1+2.... 
 
 2. **Foreach-tsükkel**
    - Kasutatakse iga elemendi läbimiseks kogumis (näiteks massiivis või nimekirjas).
