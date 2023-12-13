@@ -54,3 +54,4 @@ foreach ($fail in $failidKaustas)
     Move-Item -Path $fail.PSPath -Destination "$($kaustaAsukoht)\$( $failiLaiend)"
 }
 ```
+**TODO:** proovige iseseisvalt teha versioon, mis tõstab failid alamkaustadest tagasi.
