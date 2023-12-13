@@ -18,7 +18,14 @@ Uuri mida teeb Clear-DNSClientCache
 get-help Clear-DnsClientCache 
 
 Tühjenda DNS puhver.
+**NB! Selleks, et skriptid arvutis käima läheks, tuleb seadistada execution-policy**
+[Vaata täpsemalt](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.security/set-executionpolicy?view=powershell-7.4)
 
+Ava powershell admin õigustes ning käivta:
+
+``` powershell 
+Set-ExecutionPolicy RemoteSigned
+```
 
 ## Harjutus 2 - skripti Kirjutamine Failide Korrastamiseks
 
